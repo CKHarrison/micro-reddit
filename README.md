@@ -38,4 +38,5 @@ u = User.new(username: "chris", email: "chris@example.com", password: "password"
 > c1 = u.comments.first
 > #<Comment id: 2, body: "This is a great post!", user_id: 1, post_id: 1, created_at: "2020-06-30 22:24:31", updated_at: "2020-06-30 22:24:31">
 >> c1.post
-=> #<Post id: 1, title: "First Post", body: "Here is the body of the first post", created_at: "2020-06-30 21:33:26", updated_at: "2020-06-30 21:33:26", user_id: 1>````
+=> #<Post id: 1, title: "First Post", body: "Here is the body of the first post", created_at: "2020-06-30 21:33:26", updated_at: "2020-06-30 21:33:26", user_id: 1>
+````
